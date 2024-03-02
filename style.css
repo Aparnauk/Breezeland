@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* first div */
+.firstdiv {
+    background-image: url(./images/Hero\ Background\ gradiant.png);
+    width: 100%;
+    height: 750px;
+}
+
+/* navbar */
+
+.toggle-btn {
+    width: 40px;
+    /* margin-left: 90%; */
+    position: absolute;
+    display: none;
+    text-align: center;
+}
+
+.toggle-btn span {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    color: black;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.navb ul {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    width: 25%;
+}
+
+nav ul li {
+    margin-left: 9%;
+}
+
+nav ul li button {
+    width: 250px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.navb {
+    width: 100%;
+    margin-left: 15%;
+}
+
+/* second div */
+#sec {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.second {
+    width: 70%;
+}
+
+.second h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.second p {
+    font-size: 25px;
+    color: white;
+}
+
+.mt {
+    margin-top: 18%;
+}
+
+.third1 .row {
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.second1 {
+    display: flex;
+    width: 70%;
+    height: 105px;
+    background-color: white;
+    position: absolute;
+    margin-top: 2%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secondimg img {
+    height: 600px;
+}
+
+.second2 {
+    display: block;
+}
+
+.second1 button {
+    font-size: 30px;
+}
+
+/* third div */
+.third {
+    background-color: rgba(162, 175, 242, 0.5);
+    width: 100%;
+    height: 1200px;
+}
+
+.thirdh h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 10%;
+    color: black;
+}
+
+/* third grid */
+
+.third1 {
+    position: absolute;
+    width: 95%;
+    height: 500px;
+    margin-top: 20%;
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    width: 200px;
+    height: 200px;
+}
+
+#col1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 0px black;
+}
+
+/* fourth div */
+.fourth {
+    width: 100%;
+}
+
+.fourthtxt {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.card img {
+    width: 95%;
+}
+
+.card {
+    width: 25rem;
+}
+
+
+/* fifth div */
+.dialogue {
+    text-align: center;
+}
+
+.dialogue1 {
+    width: 80%;
+    height: 140px;
+    background-color: white;
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.buttonimg {
+    display: none;
+}
+
+#fithdiv {
+    height: 800px;
+}
+
+.dialogue1 p {
+    font-size: 28px;
+}
+
+.carousel-images {
+    cursor: pointer;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* footer div */
+footer {
+    background-image: url(./images/Hero\ Background\ gradiant.png);
+    width: 90%;
+    height: 600px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-top-right-radius: 300px;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.foot {
+    display: flex;
+    margin-left: 5%;
+}
+
+.foot h1 {
+    margin-top: 15%;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.footimg {
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 300px;
+}
+
+.endfoot {
+    margin-right: 10%;
+    margin-top: 4%;
+}
+
+#icons {
+    font-size: 50px;
+    margin-left: 5%;
+    width: 500px;
+}
+
+#icons i {
+    margin-left: 5%;
+
+}
+
+
+
+
+
+@media all and (max-width:900px) {
+
+    .firstdiv {
+        height: 400px;
+    }
+
+    /* navbar */
+
+    .toggle-btn {
+        display: block;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    /* second div */
+
+    .second h1 {
+        font-size: 20px;
+        width: 180px;
+        line-height: 40px;
+    }
+
+    #sec {
+        margin-top: 25%;
+    }
+
+    .second p {
+        display: none;
+    }
+
+    .second1 {
+        width: 85%;
+        height: 80px;
+        margin-top: 5%;
+        border-radius: 10px;
+    }
+
+    .secondimg img {
+        height: 255px;
+        width: 150px;
+    }
+
+    .second2 {
+        display: block;
+    }
+
+    .second2 h3 {
+        font-size: 12px;
+        margin-left: 10%;
+    }
+
+    .second2 h3 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .second2 input {
+        width: 90px;
+        height: 20px;
+    }
+
+    .second1 button {
+        width: 80px;
+        height: 35px;
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center;
+        font-weight: bold;
+        margin: 0px;
+    }
+
+    .second1 button i {
+        display: none;
+    }
+
+    /* third grid */
+    .third1 .row {
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+
+    .row {
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .column {
+        width: 200px;
+        height: 200px;
+    }
+
+    #col1 {
+        width: 100px;
+        height: 100px;
+        margin-top: 10%;
+    }
+
+    #col1 img {
+        width: 50px;
+        height: 40px;
+        margin-top: 15%;
+        padding-top: 1%;
+    }
+
+    #col1 h5 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .col1 {
+        display: none;
+    }
+
+    /* third div */
+    .third {
+        width: 100%;
+        height: 600px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .thirdh h1 {
+        font-size: 30px;
+    }
+
+    .third1 button {
+        display: none;
+    }
+
+    .buttonimg {
+        display: block;
+        margin-left: 30%;
+    }
+
+    /* fourth div */
+    .fourth {
+        width: 100%;
+    }
+
+    .fourthtxt {
+        font-size: 30px;
+    }
+
+    .fourth1 {
+        display: flex;
+        width: 100%;
+    }
+
+    #fourthbtn {
+        display: none;
+    }
+
+    .card-body {
+        display: none;
+    }
+
+    .card {
+        width: fit-content;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: auto;
+        cursor: pointer;
+        text-align: center;
+        white-space: nowrap;
+        animation: scroll 10s linear infinite;
+        /* Smooth scrolling animation */
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+            /* Start from initial position */
+        }
+        
+
+        100% {
+            transform: translateX(-100%);
+            /* Scroll to the left by 100% of container width */
+        }
+    }
+
+    .card img {
+        height: 120px;
+        width: 200px;
+        margin-left: 5%;
+    }
+
+    .dflex img {
+        width: 125px;
+    }
+
+    /*  */
+    .dialogue img {
+        width: 25px;
+    }
+
+    .dialogue1 {
+        height: 100px;
+        width: 365px;
+        margin-left: 5px;
+    }
+
+    .dialogue1 p {
+        font-size: 12px;
+    }
+
+    #fithdiv {
+        height: 500px;
+    }
+
+    .prev,
+    .next {
+        font-size: 10px;
+        padding: 1px;
+    }
+
+    /* footer div */
+    footer {
+        height: 350px;
+        text-align: justify;
+        border-top-right-radius: 100px;
+    }
+
+    .foot {
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .foot h1 {
+        margin-top: 30%;
+        font-size: 20px;
+    }
+
+    .foot h2 {
+        font-size: 12px;
+    }
+
+    .footimg {
+        margin-top: 20%;
+        margin-left: 10%;
+        width: 150px;
+    }
+
+    .endfoot h1 {
+        margin-right: 20%;
+        margin-top: 4%;
+        font-size: 15px;
+    }
+
+    #icons {
+        font-size: 10px;
+    }
+
+}
