@@ -91,7 +91,7 @@
 
     <!-- third div -->
 
-    <div class="third">
+    <div id="third" class="third">
 
         <!-- third head -->
 
@@ -159,7 +159,7 @@
             </div>
 
             <div class="text-center ms-5 ps-5 pt-5 fs-2">
-                <button type="button" class="btn btn-primary btn-lg text-center mt-5 ">View More</button>
+                <button id="View" type="button" class="btn btn-primary btn-lg text-center mt-5 ">View More</button>
 
                 <img class="buttonimg" src="./images/Group 7538(2).png" alt="">
             </div>
@@ -173,10 +173,10 @@
         <h1 class="fourthtxt">Our Villas Rooms</h1>
 
         <div class="fourth1">
-            <div class="row ms-5 mt-5">
+            <div  id="rowholeone" class="row">
                 <div class="col-4 card1">
                     <div class="card text-center ">
-                        <img src="./images/image 1.png" class="card-img-top mt-2" alt="...">
+                        <img src="./images/image 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">AC Master Bedroom</h5>
                             <div class="card-text d-flex justify-content-around mt-5">
@@ -195,7 +195,7 @@
 
                 <div class="col-4 card1">
                     <div class="card text-center">
-                        <img src="./images/image 1.png" class="card-img-top  mt-2" alt="...">
+                        <img src="./images/image 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">AC Master Bedroom</h5>
                             <div class="card-text d-flex justify-content-around mt-5">
@@ -214,7 +214,7 @@
 
                 <div class="col-4 card1">
                     <div class="card text-center">
-                        <img src="./images/image 1.png" class="card-img-top mt-2" alt="...">
+                        <img src="./images/image 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">AC Master Bedroom</h5>
                             <div class="card-text d-flex justify-content-around mt-5">
@@ -232,10 +232,10 @@
                 </div>
             </div>
 
-            <div id="rowhole" class="row ms-5 mt-5">
+            <div id="secondrow" class="row">
                 <div class="col-4 card1">
                     <div class="card text-center">
-                        <img src="./images/image 1.png" class="card-img-top  mt-2" alt="...">
+                        <img src="./images/image 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">AC Master Bedroom</h5>
                             <div class="card-text d-flex justify-content-around mt-5">
@@ -254,7 +254,7 @@
 
                 <div class="col-4 card1">
                     <div class="card text-center">
-                        <img src="./images/image 1.png" class="card-img-top  mt-2" alt="...">
+                        <img src="./images/image 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">AC Master Bedroom</h5>
                             <div class="card-text d-flex justify-content-around mt-5">
@@ -273,7 +273,7 @@
 
                 <div class="col-4 card1">
                     <div class="card text-center">
-                        <img src="./images/image 1.png" class="card-img-top mt-2" alt="...">
+                        <img src="./images/image 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">AC Master Bedroom</h5>
                             <div class="card-text d-flex justify-content-around mt-5">
@@ -382,7 +382,15 @@
 
 
 
-    <script src="script.js"></script>
+    <!-- toggle button -->
+    
+
+        <script>
+            function myFunction() {
+                var navbar = document.getElementById('nav');
+                navbar.classList.toggle('show');
+            }
+        </script>
 
 </body>
 
